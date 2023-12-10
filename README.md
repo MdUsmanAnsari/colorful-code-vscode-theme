@@ -1,6 +1,6 @@
 # Colorful Code 🌈
 
-This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and visually stimulating experience. It prioritizes meaningful contrast to enhance reading comprehension, catering to those with a penchant for vibrant coding environments. The description also reflects a positive and exciting vibe with the inclusion of emojis like,
+This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and visually stimulating experience. It prioritizes meaningful contrast to enhance reading comprehension, catering to those with a penchant for vibrant coding environments.
 
 ## Colorful Code
 
