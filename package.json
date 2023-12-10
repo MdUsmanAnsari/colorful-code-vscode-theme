@@ -2,6 +2,7 @@
   "name": "colorful-code",
   "displayName": "Colorful Code",
   "description": "This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and visually stimulating experience. It prioritizes meaningful contrast to enhance reading comprehension, catering to those with a penchant for vibrant coding environments. The description also reflects a positive and exciting vibe with the inclusion of emojis like ",
+  "license": "SEE LICENSE IN LICENSE.md",
   "version": "0.0.1",
   "publisher": "MdUsmanAnsari",
   "keywords": [
@@ -17,11 +18,12 @@
     "url": "https://github.com/MdUsmanAnsari/colorful-code-vscode-theme"
   },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.17.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "colorful-code-icon.png",
   "contributes": {
     "themes": [
       {
