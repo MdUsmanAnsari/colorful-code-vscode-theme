@@ -5,10 +5,10 @@
   "colors": {
     "contrastBorder": "#4755697c",
     "focusBorder": "#4755697c",
-    "foreground": "#f1f5f9",
+    "foreground": "#cbd5e1",
 
     "editor.background": "#111827",
-    "editor.foreground": "#eeffff",
+    "editor.foreground": "#cbd5e1",
 
     "activityBarBadge.background": "#007acc",
     "activityBar.background": "#111827",
@@ -39,8 +39,8 @@
 
     "breadcrumb.background": "#111827",
     "breadcrumb.foreground": "#94a3b8",
-    "breadcrumb.focusForeground": "#f1f5f9",
-    "breadcrumb.activeSelectionForeground": "#f1f5f9",
+    "breadcrumb.focusForeground": "#cbd5e1",
+    "breadcrumb.activeSelectionForeground": "#cbd5e1",
     "breadcrumbPicker.background": "#111827",
 
     "dropdown.background": "#111827",
@@ -48,16 +48,16 @@
     "dropdown.foreground": "#94a3b8",
 
     "list.activeSelectionBackground": "#234d708c",
-    "list.activeSelectionForeground": "#f1f5f9",
+    "list.activeSelectionForeground": "#cbd5e1",
     "list.invalidItemForeground": "#975f94",
     "list.dropBackground": "#1e293b",
     "list.focusBackground": "#010d18",
-    "list.focusForeground": "#f1f5f9",
-    "list.highlightForeground": "#f1f5f9",
+    "list.focusForeground": "#cbd5e1",
+    "list.highlightForeground": "#cbd5e1",
     "list.hoverBackground": "#1e293b",
-    "list.hoverForeground": "#f1f5f9",
+    "list.hoverForeground": "#cbd5e1",
     "list.inactiveSelectionBackground": "#1e293b",
-    "list.inactiveSelectionForeground": "#f1f5f9",
+    "list.inactiveSelectionForeground": "#cbd5e1",
 
     "input.background": "#1e293b",
     "input.border": "#4755697c",
@@ -202,7 +202,8 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#2dd4bf"
+        "foreground": "#2dd4bf",
+        "fontStyle": "italic"
       }
     },
     {
@@ -219,11 +220,24 @@
         "foreground": "#f472b6"
       }
     },
+
     {
       "name": "Variable Parameter",
       "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#f472b6"
+      }
+    },
+    {
+      "name": "TypeScript[React] Import variable",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#cbd5e1"
       }
     },
     {
@@ -334,7 +348,8 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#60a5fa"
+        "foreground": "#60a5fa",
+        "fontStyle": "italic"
       }
     },
     {
@@ -513,7 +528,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#cbd5e1"
       }
     },
     {
@@ -646,7 +661,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#cbd5e1"
       }
     },
     {
@@ -668,7 +683,7 @@
       "name": "Markup - Table",
       "scope": ["markup.table"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#cbd5e1"
       }
     },
     {
@@ -676,6 +691,39 @@
       "scope": ["string", "string.quoted", "variable.other.readwrite.js"],
       "settings": {
         "foreground": "#c084fc"
+      }
+    },
+    {
+      "name": "TypeScript[React] Variables and Object Properties",
+      "scope": [
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "variable.other.ts",
+        "variable.other.tsx",
+        "variable.tsx",
+        "variable.ts"
+      ],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "name": "Object properties key",
+      "scope": [
+        "meta.object-literal.key.tsx",
+        "meta.object.member.tsx",
+        "meta.objectliteral.tsx",
+        "meta.object.member.tsx",
+        "meta.objectliteral.tsx",
+        "meta.object.member.tsx",
+        "meta.objectliteral.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#f472b6"
       }
     }
   ]
