@@ -1,6 +1,6 @@
 # Colorful Code 🌈
 
-This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and visually stimulating experience. It prioritizes meaningful contrast to enhance reading comprehension, catering to those with a penchant for vibrant coding environments.
+A dark Visual Studio Code theme. who love to vibrant and colorful coding environment.
 
 ## Colorful Code
 
@@ -11,6 +11,16 @@ This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and vi
 ### CSS
 
 ![Night Owl Frameworks](css-demo.png)
+
+## Colorful Code ( No Italic )
+
+### React
+
+![First Screen](react-demo-noitalic.png)
+
+### CSS
+
+![Night Owl Frameworks](css-demo-noitalic.png)
 
 ## How to install
 

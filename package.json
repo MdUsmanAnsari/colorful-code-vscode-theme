@@ -1,7 +1,7 @@
 {
   "name": "colorful-code",
   "displayName": "Colorful Code",
-  "description": "This VS Code theme is crafted for coding enthusiasts who enjoy a colorful and visually stimulating experience. It prioritizes meaningful contrast to enhance reading comprehension, catering to those with a penchant for vibrant coding environments.",
+  "description": "A dark Visual Studio Code theme. who love to vibrant and colorful coding environment.",
   "license": "SEE LICENSE IN LICENSE.md",
   "version": "0.2.3",
   "publisher": "MdUsmanAnsari",
@@ -11,6 +11,8 @@
     "Colorful Code",
     "Colorful Dark Theme",
     "Fancy Theme",
+    "Dark Pink Theme",
+    "Dark Green Theme",
     "Accessible Theme"
   ],
   "repository": {
@@ -30,6 +32,11 @@
         "label": "Colorful Code",
         "uiTheme": "vs-dark",
         "path": "./themes/colorful-code-color-theme.json"
+      },
+      {
+        "label": "Colorful Code (No Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/colorful-code-color-theme-noitalic.json"
       }
     ]
   }
